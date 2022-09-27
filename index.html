@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800;900&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+.intro {
+    margin-top: 100px;
+}
+    .about-para{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .about-image img{
+        width: 300px;
+        height: auto;
+    }
+
+    .contact-image img{
+        width: 100px;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/Black & White Minimalist Business Logo.png" alt="" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end me-5" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- navigation bar -->
+
+<!-- into -->
+<div id="home" class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 intro">
+            <h1>I'm Rahul </h1>
+            <h1>A Front-End Developer</h1>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <img src="./images/AdobeStock_420645292.jpeg" alt="developer" width="500px" height="auto">
+        </div>
+    </div>
+</div>
+<!-- intro -->
+
+
+<!-- about -->
+<div id="about" class="container">
+    <div class="row text-center">
+        <div class="col-sm-12 col-md 12 my-2"><h1>About</h1></div>
+        <div class="col-sm-12 col-md 12"><p class="about-para">My name is rahul and i’m a passionate frontend developer using frontend technologies to build amazing websites and focused on solving problems</p></div>
+        <div class="col-sm-12 col-md 12 my-2"><h1>Technologies Known</h1></div>
+        <div class="col sm-12 col-md-12 my-5">
+            <div class="d-flex justify-content-evenly about-image">
+                <div><img src="./images/html-5.png" alt=""></div>
+                <div><img src="./images/css.png" alt=""></div>
+                <div><img src="./images/java-script.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about -->
+
+<!-- projects -->
+<div id="projects" class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 text-center my-3"><h1>Projects</h1></div>
+        <!-- project 1 -->
+        <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">My Portfolio</h5>
+                  <p class="card-text">Ive created this portfolio using bootstrap while pusuing internship in vivarttana technologies</p>
+                  <a href="#" class="btn btn-primary">Click here</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<!-- projects -->
+<div id="contact" class="container mb-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 text-center"><h1>Conact</h1></div>
+        <div class="col-sm-12 col-md-12 d-flex justify-content-around contact-image">
+            <div><a href="https://wa.me/+919535189585"><img src="./images/whatsapp.png" alt="whatsapp"></a></div>
+            <div><a href="https://github.com/rahulemathi"><img src="./images/github.png" alt="github"></a></div>
+            <div><a href="mailto:erahul096@gmail.com"><img src="./images/gmail.png" alt="gmail"></a></div>
+            <div><a href="https://www.linkedin.com/in/rahul-e-mathi-944238130/"><img src="./images/linkedin.png" alt="linkedin"></a></div>
+            <div><a href="tel:9535189585"><img src="./images/telephone.png" alt="phone"></a></div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
